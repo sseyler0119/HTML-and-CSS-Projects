@@ -1,0 +1,12 @@
+/*Add table border*/
+table {
+	background-color: mediumPurple;
+	color: snow;
+	border: 2px solid Indigo;
+}
+
+/*Add hover effect*/
+td:hover {
+	background-color: lavender;
+	color: black;
+}
