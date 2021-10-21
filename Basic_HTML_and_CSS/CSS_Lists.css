@@ -1,0 +1,9 @@
+/*format ordered list*/
+ol {
+	list-style-type: lower-alpha;
+}
+
+/*format unordered list*/
+ul {
+	list-style-type: circle;
+}
