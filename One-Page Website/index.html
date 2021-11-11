@@ -4,13 +4,17 @@
 <head>
   <title>Pawsitivity</title>
   <meta char="utf-8" />
+  <link rel="stylesheet", href="css/one_page_website.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,500&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
   <!--NAV Bar -->
-  <div>
-    <div>
-      <ul>
+  <div class="wrap">
+    <div class="menu-container">
+      <ul class="menu">
         <a href="#home" id="link">
           <li>HOME</li>
         </a>
@@ -26,16 +30,14 @@
   <!-- End Nav -->
 
   <!-- HOME -->
-  <section>
     <div id="home">
-      <div>
-        <div>
-          <h1><span>Paws</span>itivity</h1>
+      <div class="container">
+        <div class="text-center">
+          <span class="head-main">Pawsitivity</span>
         </div>
-        <h3>Are you looking to make some new furry friends?<br />
-          Do you know someone who could use some companionship from the world's most attentive listener?<br />
-          Would your doggy like a playdate?<br />
-          Do you just want someone to snuggle with and watch a movie? </h3>
+
+        <!-- <h3>Are you looking to make some new furry friends?<br />
+          Would your doggy like a playdate?<br /> </h3>
         <h4>Then contact us today to schedule your doggy playtime! <br />Our dogs would love to meet both your human and fur-friends. <br /></h4>
         <h4>
           <list>Some of the places our dogs have gone:
@@ -50,33 +52,33 @@
               <li>Therapy Sessions </li>
             </ul>
           </list>
-        </h4>
+        </h4> -->
       </div>
     </div>
-  </section>
   <!-- end Home -->
 
   <!-- GALLERY -->
-  <section>
-    <div id="gallery">
+  <section id="gallery">
+    <div class="container" >
       <h1>Gallery</h1>
-      <div>
+      <div class="flex-container">
         <!-- PHOTO CONTAINER 1-->
-        <div>
-          <div>
+        <div class="photo-container">
+          <div class="photo">
             <img src="./images/thumbs/thumb1.jpg" alt="Pumpkin" style="max-width: 300px" />
-            <div>
+            <div class="photo-overlay">
               <h3>Hi, I'm Pumpkin!</h3>
               <p>Schedule a meeting with one of our doggos today!</p>
             </div>
           </div>
         </div>
         <!-- end photo container 1 -->
+
         <!-- PHOTO CONTAINER 2-->
-        <div>
-          <div>
+        <div class="photo-container">
+          <div class="photo">
             <img src="./images/thumbs/thumb2.jpg" alt="Chalupa" style="max-width: 300px" ; />
-            <div>
+            <div class="photo-overlay">
               <h3>Hi, I'm Chalupa!</h3>
               <p>Schedule a meeting with one of our doggos today!</p>
             </div>
@@ -85,10 +87,10 @@
         <!-- end photo container 2 -->
 
         <!-- PHOTO CONTAINER 3-->
-        <div>
-          <div>
+        <div class="photo-container">
+          <div class="photo">
             <img src="./images/thumbs/thumb3.jpg" alt="Chedder" style="max-width: 300px" />
-            <div>
+            <div class="photo-overlay">
               <h3>Hi, I'm Chedder!</h3>
               <p>Schedule a meeting with one of our doggos today!</p>
             </div>
@@ -97,10 +99,10 @@
         <!-- end photo container 3 -->
 
         <!-- PHOTO CONTAINER 4-->
-        <div>
-          <div>
+        <div class="photo-container">
+          <div class="photo">
             <img src="./images/thumbs/thumb4.jpg" alt="Joltin' Joe" style="max-width: 300px" />
-            <div>
+            <div class="photo-overlay">
               <h3>Hi, I'm Joltin' Joe!</h3>
               <p>Schedule a meeting with one of our doggos today!</p>
             </div>
@@ -109,10 +111,10 @@
         <!-- end photo container 4 -->
 
         <!-- PHOTO CONTAINER 5-->
-        <div>
-          <div>
+        <div class="photo-container">
+          <div class="photo">
             <img src="./images/thumbs/thumb5.jpg" alt="Marvin" style="max-width: 300px" />
-            <div>
+            <div class="photo-overlay">
               <h3>Hi, I'm Marvin!</h3>
               <p>Schedule a meeting with one of our doggos today!</p>
             </div>
@@ -121,10 +123,10 @@
         <!-- end photo container 5 -->
 
         <!-- PHOTO CONTAINER 6-->
-        <div>
-          <div>
+        <div class="photo-container">
+          <div class="photo">
             <img src="./images/thumbs/thumb6.jpg" alt="Gertie" style="max-width: 300px" />
-            <div>
+            <div class="photo-overlay">
               <h3>Hi, I'm Gertie!</h3>
               <p>Schedule a meeting with one of our doggos today!</p>
             </div>
@@ -133,10 +135,10 @@
         <!-- end photo container 6 -->
 
         <!-- PHOTO CONTAINER 7-->
-        <div>
-          <div>
+        <div class="photo-container">
+          <div class="photo">
             <img src="./images/thumbs/thumb7.jpg" alt="Layla" style="max-width: 300px" />
-            <div>
+            <div class="photo-overlay">
               <h3>Hi, I'm Layla!</h3>
               <p>Schedule a meeting with one of our doggos today!</p>
             </div>
@@ -145,10 +147,10 @@
         <!-- end photo container 7 -->
 
         <!-- PHOTO CONTAINER 8-->
-        <div>
-          <div>
+        <div class="photo-container">
+          <div class="photo">
             <img src="./images/thumbs/thumb8.jpg" alt="Hopper" style="max-width: 300px" />
-            <div>
+            <div class="photo-overlay">
               <h3>Hi, I'm Hopper!</h3>
               <p>Schedule a meeting with one of our doggos today!</p>
             </div>
@@ -157,10 +159,10 @@
         <!-- end photo container 8 -->
 
         <!-- PHOTO CONTAINER 9-->
-        <div>
-          <div>
+        <div class="photo-container">
+          <div class="photo">
             <img src="./images/thumbs/thumb9.jpeg" alt="Lupin" style="max-width: 300px" />
-            <div>
+            <div class="photo-overlay">
               <h3>Hi, I'm Lupin!</h3>
               <p>Schedule a meeting with one of our doggos today!</p>
             </div>
@@ -173,55 +175,46 @@
   <!-- end Gallery -->
 
   <!-- CONTACT -->
-  <section>
-    <div id="contact">
-      <div>
-        <h1>Reserve your pup, now!</h1>
-        <div>
-          <h2><span>Your doggy date is waiting for you.</span><br />
-            Reserve your pup today!</h2>
-
-          <p>
-            Please provide us with your contact information, and we will be in contact soon.
-          </p>
-        </div>
+    <section id="contact">
+      <div class="container">
+        <h1 class="heading-padding">Reserve your pup, now!</h1>
+        <div class="reservation">
+          <h2><span>Your doggy date is waiting for you.<br />
+            Reserve your pup today!</span></h2>
+        
 
         <!-- CONTACT Form -->
-        <form action="" method="post">
-          <label for="text">First Name: </label>
-          <input class="rsvp" type="text" value="" />
-          <label for="text">Last Name: </label>
-          <input class="rsvp" type="text" value="" />
-          <label for="email">Email: </label>
-          <input class="rsvp" type="email" value="" />
-          <br /><br />
-          <label for="phone">Phone:</label>
-          <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-          <small>Format: 123-456-7890</small><br><br>
-          <p>Who would you like to schedule a playdate for? </p>
-          <input type="checkbox" id="dog" name="dog" value="Dog">
-          <label for="dog">I want to schedule a playdate for my dog(s)</label><br>
-          <input type="checkbox" id="human" name="human" value="People">
-          <label for="human"> I would like to schedule a playdate for a person/people</label><br>
-          <p> Tell us about your event:</p>
-          <textarea name="message" style="width:400px; height:200px;">Enter Text.</textarea>
+        <div class="form-rsvp">
+          <form action="" method="post">
+         
+            <input class="rsvp" type="text" value placeholder="First Name" />
+            <input class="rsvp" type="text" value placeholder="Last Name" />
+            <input class="rsvp" type="email" value placeholder="Email" />
+            <input class="rsvp" type="tel" id="phone" name="phone" placeholder="Phone 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <p>Who would you like to schedule a playdate for? </p>
+            <input type="checkbox" id="dog" name="dog" value="Dog">
+            <label for="dog">I want to schedule a playdate for my dog(s)</label><br>
+            <input type="checkbox" id="human" name="human" value="People">
+            <label for="human"> I would like to schedule a playdate for a person/people</label><br>
+            <textarea class="textBox" name="message" value placeholder="Tell us about your event..."></textarea>
 
-          <div class="form-spacer">
-            <label class="terms">Terms and Condtions</label>
-          </div>
-          <div>
-            <input type="submit" value="Submit" />
-          </div>
-        </form> <!-- end form -->
-
-      </div>
-    </div>
-  </section>
+            <div class="form-spacer">
+              <label class="terms">Terms and Condtions</label>
+            </div> <!--end form-spacer -->
+          
+            <div class="submit">
+              <input type="submit" value="Submit" />
+            </div> <!--end submit-->
+          </form> <!-- end form -->
+        </div><!--end form-rsvp-->
+      </div> <!--end reservation-->
+    </div> <!--end container-->
+    </section>
   <!-- end Contact -->
 </body>
 
 <!-- FOOTER -->
-<div>
+<div id="footer">
   www.pawstivity.com &nbsp;|&nbsp; &copy;2021
 </div>
 <!-- end FOOTER -->
