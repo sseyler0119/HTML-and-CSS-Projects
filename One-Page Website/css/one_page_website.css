@@ -108,7 +108,45 @@ section {
 .heading-padding {
     padding-bottom: 40px;
 }
+/*******************************
+        MENU SELECTION ANIMATION
+**********************************/
+.menu {
+    color: #E1E8EB;
+    font: bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
 
+.menu li {
+   color: #C6DE41;
+   background-color: #424549; 
+   display: inline-block;
+   margin-left: 5px;
+   margin-right: 5px;
+   /* margin: 0% auto; */
+   width: 65px;
+   position: relative;
+   padding: 15px;
+   border: 1px solid #C6DE41;
+   box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+   border-radius: 6px;
+   cursor: pointer;
+   transition-property: background;
+   transition-duration: 0.4s;
+   transition-delay: 0s;
+   transition-timing-function: ease-in-out;
+}
+
+.menu li:hover {
+    
+    color:rgb(45, 110, 126);
+    background-color: #E1E8EB;
+}
 /*****************************
      HOME SECTION STYLES 
 ******************************/
@@ -159,6 +197,74 @@ section {
     background-color: rgba(45, 110, 126, 0.8);
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
+
+
+/*================================================
+        GALLERY SELECTION ANIMATIONS
+==================================================*/
+
+.photo {
+    position: relative;
+    line-height: 0;    
+    margin-bottom: 10px ;
+    overflow: hidden;
+    border-radius: 9px;
+    padding: 1px;
+    border: 1px solid #090b0d;
+    background-color: #334e6b;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.7);
+}
+
+.photo img {
+    transition: transform 0.5s;
+    transform-origin: 50% 50%;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
+.photo-container {
+    text-align: center;
+    margin: 35px auto;
+    width: 295px;
+    height: 315px;
+}
+
+.photo-container img {
+    max-width: 100%;
+    width: 295px;
+    height: 315px;
+}
+
+.photo-overlay {
+    color: #E1E8EB;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo-overlay:hover {
+    opacity: 1;
+}
+
+
+
+.white-head {
+    color: #E1E8EB;
+    margin-top: 5%;
+}
+
 
 /******************************
     CONTACT FORM  STYLES     
@@ -322,6 +428,8 @@ section {
     padding: 20px 50px 20px 50px;
     text-align: center;
 }
+
+
 
  /*==========================================================
    @MEDIA QUERIES
