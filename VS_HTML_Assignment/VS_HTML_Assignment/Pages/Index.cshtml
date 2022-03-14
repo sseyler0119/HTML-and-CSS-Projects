@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Music Video";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Spring Cleaning Theme Song</h1>
+    <p>While this isn't my favorite song, it certainly has been making the rounds in my head this weekend as I do some cleaning!</p>
+</div>
+<div class="text-center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rxgWHzMvXOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h3> Click the button to find out who Oscar's best friend is!</h3>
+    <button onclick="imgFunction()">Who am I?</button>
+    <h4>Then hover below to see his name!</h4>
+    <div id="imageDiv">
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+            <h3 class="nameClass"> My name is... </h3>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
