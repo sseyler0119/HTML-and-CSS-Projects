@@ -1,0 +1,13 @@
+@import "normalize";
+
+@import "variables";
+
+@import "small";
+
+@media only screen and (min-width: 768px) { /* 768 px is about the size of a phone turned sideways, this is the starting point */
+    @import "medium";
+} /* end of media query */
+
+@media only screen and (min-width: 1024px) { /*  */
+    @import "large";
+} /* end of media query */

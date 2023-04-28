@@ -12,4 +12,4 @@ This is an example home page for a company called Pawsitivity that allows people
 
 
 ### Movie Theater Site
-This page is an example home page for a movie theater called Academy Cinemas that is styled using Bootstrap 4. It contains various Bootstrap components such as a navbar, jumbotron, form, cards, and dropdowns, etc. 
+This page is an example home page for a movie theater called Academy Cinemas that is styled using Bootstrap 4. It contains various Bootstrap components such as a navbar, jumbotron, form, cards, and dropdowns, etc.
